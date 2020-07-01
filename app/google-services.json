@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1015360762860",
+    "firebase_url": "https://saxaapp.firebaseio.com",
+    "project_id": "saxaapp",
+    "storage_bucket": "saxaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015360762860:android:d63cedf41c608742b246c9",
+        "android_client_info": {
+          "package_name": "com.santosh.saxaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015360762860-9d68nv75lv0dp1uh0ieugpb8u6s24q81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbqy9q0hEqeKKDMGW89zbk9gDgFhalv1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015360762860-9d68nv75lv0dp1uh0ieugpb8u6s24q81.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

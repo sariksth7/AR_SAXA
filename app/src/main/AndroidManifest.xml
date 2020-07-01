@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.santosh.saxa">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera.ar" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="SaXa Home Furnishing"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.santosh.saxa.RegistrationActivity"/>
+        <activity android:name="com.santosh.saxa.LoginActivity" />
+        <activity android:name="com.santosh.saxa.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name="com.santosh.saxa.HelpActivity" />
+        <activity android:name="com.santosh.saxa.ProductsActivity" />
+        <activity android:name="com.santosh.saxa.DesignsActivity" />
+        <activity android:name="com.santosh.saxa.HomeActivity"/>
+
+
+        <activity android:name="com.santosh.saxa.MainActivity" />
+
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="required" />
+    </application>
+
+</manifest>
